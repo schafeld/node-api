@@ -1,0 +1,30 @@
+{
+  "name": "node-api",
+  "version": "1.0.0",
+  "description": "Node Backend/API tutorial, based on https://www.robinwieruch.de/javascript-project-setup-tutorial/",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schafeld/node-api.git"
+  },
+  "keywords": [
+    "node",
+    "api"
+  ],
+  "author": "Oliver Schafeld",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/schafeld/node-api/issues"
+  },
+  "homepage": "https://github.com/schafeld/node-api#readme",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "nodemon": "^1.19.1"
+  }
+}
